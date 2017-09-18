@@ -1,0 +1,19 @@
+#admin_login_section{
+    text-align: center;
+}
+#admin_login_section input{
+    width: 290px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+}
+#contact_form ul{
+    list-style: none;
+}
+#contact_form ul li{
+    padding-top: 3px;
+}
+#contact_submit_btn{
+    background: red;
+    color: white;
+}

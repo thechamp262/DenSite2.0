@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2015, 2:29:08 PM
+    Author     : ANTHONY
+*/
+div,tr,td,table,thead,input,h1,h2,image,body,p,section,ul,li,nav{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px;
+    font-family: 'Yantramanav', sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    padding: 10px;
+}
+#left_float{
+    width: 100%;
+}
+.home_top_font{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-weight: 100;
+    background-color: purple;
+    padding: 5px;
+}
+#main_nav{
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    position: fixed;
+    padding: 10px;
+    font-weight: 600;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+#nav_ul{
+    text-align: center;
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#nav_ul li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 130%;
+}
+#nav_ul li a:link, #nav_ul li a:visited{
+    text-decoration: none;
+    color: #000;
+}
+#sel_page{
+    text-decoration: underline;
+}
+#nav_icons{
+    float: right;
+    margin-right: 50px;
+    margin-top: -30px;
+    width: 10%;
+}
+#nav_icons li{
+   display: inline;
+}
+#nav_icons li img{
+    width:15%;
+    margin-right: 10px;
+}
+#main_nav p{
+    font-size: 2vw;
+    margin-top: -2.5vw;
+    font-weight: 900;
+    font-family: 'Palanquin', sans-serif;
+    position: absolute;
+}
+#owner_name{
+    font-size: 250%;
+    margin-top: 300px;
+}
+#main_header{
+    font-size: 350%;
+}
+#collection_nav_drop_ul{
+    position: absolute;
+    margin-left:46%;
+    background-color: #000;
+    padding: .5%;
+    width: 300px;
+    visibility: hidden;
+    color:#fff;
+    
+}
+#collection_nav_drop_ul li{
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 24px;
+}
+#collection_nav_drop_ul li a:link, #collection_nav_drop_ul li a:visited{
+    color: #fff;
+}
+#collection_nav_drop_ul li a:hover{
+    background-color: purple;
+    color: #fff;
+    width: 100px;
+    height: 20px;
+    padding: 1% 7% 1% 7%;
+}

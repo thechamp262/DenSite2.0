@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 5, 2016, 6:05:54 PM
+    Author     : ANTHONY
+*/
+div,tr,td,table,thead,input,h1,h2,image,body,p,section,ul,li,nav,span,footer,h6{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px;
+    font-family: 'Yantramanav', sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+}
+sel_page{
+    text-decoration: underline;
+}
+#nav_icons{
+    float: right;
+    margin-right: 50px;
+    margin-top: -30px;
+    width: 10%;
+}
+#nav_icons li{
+   display: inline;
+}
+#nav_icons li img{
+    width:15%;
+    margin-right: 10px;
+}
+#main_nav p{
+    font-size: 250%;
+    margin-top: -55px;
+    font-weight: 900;
+    font-family: 'Palanquin', sans-serif;
+    position: absolute;
+}
+#art_header{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 4%;
+}
+#art_header img{
+    width: 100%;
+    margin: 0 auto;
+    height: 20%;
+}
+#art_header p, #art_header h2{
+    text-align: center;
+}
+#art_header h2{
+    font-size: 80px;
+    font-weight: 900;
+    color: purple;
+}
+#name_data{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.cat_link:link, .cat_link:visited{
+    color: purple;
+    text-decoration: none;
+}
+#small_sample{
+    
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-family: 'Palanquin', sans-serif;
+}
+.quotes{
+    color: purple;
+    font-size: 40px;
+    font-family: 'Palanquin', sans-serif;
+}
+#main_article{
+    width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+}
+#main_article p{
+    text-align: center;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Palanquin', sans-serif;
+}
+#article_footer{
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+}
+#article_footer h3{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;
+    border-top: 1px solid #000;
+    padding-top: 5px;
+}
+#article_footer img{
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    border-width: 3px;
+    padding: 5px;
+    text-align: center;
+}
+#article_footer p, #article_footer h6{
+    text-align: center;
+}
+#article_footer h6{
+    font-size:  20px;
+}
+#article_footer p{
+    font-size: 15px;
+}
+.cat_suggest{
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+}
+#footer_sec{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    height: 100px;
+}
+.fb-share-button{
+    position: absolute;
+}

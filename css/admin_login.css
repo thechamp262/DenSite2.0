@@ -1,0 +1,10 @@
+#admin_login_section{
+    text-align: center;
+    margin-top: 2.1%;
+}
+#admin_login_section input{
+    width: 290px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+}
